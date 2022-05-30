@@ -18,9 +18,9 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/inquires' element={<Inquires />} />
-          <Route path='/faqs' element={<Faqs />} />        
+          <Route path='/Home' element={<Home />} />
+          <Route path='/Inquires' element={<Inquires />} />
+          <Route path='/Faqs' element={<Faqs />} />        
         </Routes>
         <Footer />
       </BrowserRouter>    

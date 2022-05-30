@@ -75,20 +75,21 @@ margin-left: 5rem;
     .sidebar-contents {
         background-color: rgb(132, 52, 17);
         width: 100%;
-        height: 100%;
+        height: 3rem;
         position: relative;
         display: flex;
     }
     
     .sidebar-contents img {
-        width: 5rem;
+        width: 3rem;
+        height: 3rem;
     }
     
     .sidebar-subcontents ul{
         text-decoration: none;
         color: white;
         text-transform: uppercase;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 500;
         padding: 0.5rem;
         display: flex;

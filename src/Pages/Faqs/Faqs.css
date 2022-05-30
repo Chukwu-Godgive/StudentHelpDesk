@@ -1,0 +1,29 @@
+.faqs-contents {
+    margin-left: 10rem
+}
+
+.faqs-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+}
+
+.faqs1 {
+    display: flex;
+}
+
+@media(max-width: 750px) {
+    .faqs-contents {
+        margin-left: 10rem
+    }
+    
+    .faqs-heading {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 0.5rem;
+    }
+    
+    .faqs1 {
+        display: grid;
+    }
+}

@@ -1,20 +1,13 @@
-import React, {useRef} from 'react';
-import Emailjs from 'emailjs-com';
+import React from 'react';
+// import { Link } from 'react-router-dom';
 import '../Inquires/Inquires.css';
 
 function Inquires() {
-    const form = useRef();
-
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      Emailjs.sendForm('service_389kdvm', 'template_9wvawwm', form.current, 'xKU1URm_n5bjx6CJP')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
+    
+    const thankYou = () => {
+        window.location.href='/'
+        alert('Thank You for reaching out to us. We will get back to you within 3hrs!')
+    }
 
     return (
         <div className='container'>
@@ -23,25 +16,25 @@ function Inquires() {
                     <h1>Make inquires concerning our School, Faculties, Departments, or Offices</h1>
                 </div>
                 <div className='inquires-form'>
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form onSubmit={thankYou} method='get'>
                         <div  className='form-div'>
                             <div  className='form-div1'>
                                 <p>Full Name:</p>
-                                <input type='text' placeholder='enter your name' name='from_name' />
+                                <input type='text' placeholder='enter your name' />
 
                                 <p>Phone Number:</p>
                                 <input type='tel' placeholder='enter your phone number' />
                             </div>
                             <div  className='form-div2'>
                                 <p>Email:</p>
-                                <input type='email' placeholder='enter your email' name='reply_to' required/>
+                                <input type='email' placeholder='enter your email' required/>
 
                                 <p>Inquires To:</p>
                                 <input type='text' placeholder='name of faculty, department or office' required/>
                                 </div>
                             </div>
                             <p>Message:</p>
-                            <textarea placeholder='enter your messages' name='message' required></textarea>
+                            <textarea placeholder='enter your messages' required></textarea>
                         <div>
                             <button >Submit</button>
                         </div>

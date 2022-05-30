@@ -3,7 +3,7 @@
 }
 
 .home-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.925)), url(../../Images/Heropix.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.842)), url(../../Images/Heropix.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,6 +89,7 @@
     
     .home-about, .home-steps {
         margin-left: 1rem;
+        padding-right: 0.5rem;
         width: 100%;
     }
     
@@ -100,5 +101,11 @@
     .home-about h1, .home-steps h1 {
         font-size: 2rem;
         margin-top: 2rem;
+    }
+}
+
+@media(max-width: 550px) {
+    .home-contents {
+        margin-left: 0;
     }
 }

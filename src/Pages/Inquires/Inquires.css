@@ -99,3 +99,44 @@ textarea {
         margin-left: 0;
     }
 }
+
+@media(max-width: 550px) {
+    .inquires-contents {
+        margin-left: 0;
+    }
+
+    .inquires-heading {
+        text-align: center;
+        padding: 2rem 5rem;
+        border-bottom: 1px solid rgb(132, 52, 17);
+        width: 100%;
+    }
+    
+    .inquires-form {
+        margin: 5rem 1rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .inquires-form input{
+        padding: 0.5rem;
+        width: 20.5rem;
+        margin-bottom: 2rem;
+        border: 1.5px solid rgb(132, 52, 17);
+        outline: none;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        width: 20.5rem;
+        height: 10.5rem;
+        padding: 0.5rem;
+        border: 1.5px solid rgb(132, 52, 17);
+        outline: none;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+}

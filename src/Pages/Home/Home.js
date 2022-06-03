@@ -10,7 +10,7 @@ function Home() {
             <div className='home-contents'>
                 <div className='home-hero'>
                     <h1>welcome to students help desk <br/>esut chapter</h1>
-                    <button><Link to='inquires'>Get Started</Link></button>
+                    <button><Link to='/inquires'>Get Started</Link></button>
                 </div>
                 <div className='home-subsection'>
                     <div className='home-about'>

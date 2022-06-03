@@ -13,8 +13,8 @@ function Sidebar() {
                 <div className='sidebar-subcontents'>
                     <ul>
                         <li><Link to='/'>Dashboard</Link></li>
-                        <li><Link to='/Inquires'>Inquire</Link></li>
-                        <li><Link to='/Faqs'>Faqs</Link></li>
+                        <li><Link to='/inquires'>Inquire</Link></li>
+                        <li><Link to='/faqs'>Faqs</Link></li>
                     </ul>
                 </div>
             </div>

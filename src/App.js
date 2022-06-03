@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home';
 import Inquires from './Pages/Inquires/Inquires';
 import Faqs from './Pages/Faqs/Faqs';
 import Footer from './Components/Footer/Footer';
+import ThankYou from './Pages/Inquires/ThankYou';
 
 
 function App() {

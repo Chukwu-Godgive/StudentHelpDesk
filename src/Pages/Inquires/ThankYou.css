@@ -1,0 +1,37 @@
+.thankyou-contents {
+    margin-left: 10rem
+}
+
+.thankyou-contents {
+padding: 10%;
+height: 100vh;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.thankyou-contents button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    background-color: rgb(132, 52, 17);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width: 550px) {
+    .thankyou-contents {
+        margin-left: 0;
+    }
+
+    .thankyou-contents {
+        padding: 5%;
+        height: 100vh;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
